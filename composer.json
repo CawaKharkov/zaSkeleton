@@ -1,0 +1,20 @@
+{
+    "name": "cawa/za-skeleton",
+    "description": "Simple mvc system",
+    "require-dev": {
+        "corneltek/pux": "dev-master"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "CawaKharkov",
+            "email": "cawa123@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {"zaSkeleton\\": "src/"}
+    }
+}
