@@ -2,7 +2,9 @@
     "name": "cawa/za-skeleton",
     "description": "Simple mvc system",
     "require-dev": {
-        "corneltek/pux": "dev-master"
+        "corneltek/pux": "dev-master",
+        "monolog/monolog": "dev-master",
+        "league/plates": "2.*"
     },
     "license": "MIT License",
     "authors": [
