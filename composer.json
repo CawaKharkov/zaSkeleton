@@ -13,8 +13,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "php": ">=5.4"
     },
     "autoload": {
-        "psr-4": {"zaSkeleton\\": "src/"}
+        "psr-4": {
+            "zaSkeleton\\": "src/"
+        }
     }
 }
