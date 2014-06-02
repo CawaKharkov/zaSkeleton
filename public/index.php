@@ -15,6 +15,15 @@ $mux->any('/test', ['zaSkeleton\Controller\IndexController', 'testAction']);
 
 $route = $mux->dispatch($_SERVER['REQUEST_URI']);
 
+use Pimple\Container;
+
+$container = new Container();
+$container['application_name'] = 'zaSkeleton';
+
+$container['manager'] = function ($c) {
+    return new zaSkeleton\Doctrine\Manager();
+};
+
 
 try {
     // Create new Plates engine

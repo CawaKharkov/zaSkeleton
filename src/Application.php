@@ -9,5 +9,16 @@ namespace zaSkeleton;
  */
 class Application
 {
-    //put your code here
+    protected $serviceContainer;
+    
+    protected $request;
+    protected $response;
+    
+    protected $layout;
+    protected $view;
+    
+    protected $router;
+    
+    protected $config;
+    
 }
