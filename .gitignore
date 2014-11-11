@@ -2,3 +2,6 @@
 nbproject
 vendor
 composer.lock
+.idea
+
+config/config.local.php

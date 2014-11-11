@@ -7,17 +7,18 @@ namespace zaSkeleton\Controller;
  *
  * @author cawa
  */
-class IndexController
+class IndexController extends AbstractController
 {
 
     public function indexAction()
     {
-        return ['index','content'=>'indexAction'];
+        return ['index', 'content' => '1'];
     }
-    
-      public function testAction()
+
+    public function testAction()
     {
-        return ['content'=>'testAction'];
+        $data = ['one', 'second'];
+        return ['test', 'content' => compact('data')];
     }
 
 }

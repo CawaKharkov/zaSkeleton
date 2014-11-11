@@ -3,13 +3,15 @@
     "description": "Simple mvc system",
     "require-dev": {
         "php": ">=5.4",
-        "corneltek/pux": "dev-master",
         "monolog/monolog": "dev-master",
         "league/plates": "2.*",
         "pimple/pimple": "dev-master",
         "cartalyst/sentry": "dev-master",
         "doctrine/orm": "dev-master",
-        "gedmo/doctrine-extensions": "dev-master"
+        "gedmo/doctrine-extensions": "dev-master",
+        "tedivm/stash": "dev-master",
+        "herrera-io/wise": "~1.0",
+        "herrera-io/json": "~1.0@dev"
     },
     "license": "MIT License",
     "authors": [
@@ -20,7 +22,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "tedivm/stash": "dev-master"
+        "dannyvankooten/php-router": "dev-master"
     },
     "autoload": {
         "psr-4": {
